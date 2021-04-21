@@ -9,6 +9,8 @@ import { typesBundleForPolkadot } from '@acala-network/type-definitions';
 (typesBundleForPolkadot.spec.mandala.types[2].types as any)['ChainBridgeChainId'] = 'u8';
 (typesBundleForPolkadot.spec.acala.types[2].types as any)['ResourceId'] = '[u8; 32]';
 (typesBundleForPolkadot.spec.mandala.types[2].types as any)['ResourceId'] = '[u8; 32]';
+(typesBundleForPolkadot.spec.acala.types[2].types as any)['DepositNonce'] = 'u64';
+(typesBundleForPolkadot.spec.mandala.types[2].types as any)['DepositNonce'] = 'u64';
 
 typesBundleForPolkadot.spec.acala.alias = {
   ...typesBundleForPolkadot.spec.acala.alias,
