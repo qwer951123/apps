@@ -15,7 +15,7 @@ import { typesBundleForPolkadot } from '@acala-network/type-definitions';
 	_enum: {
 		Token: 'TokenSymbol',
 		DEXShare: '(DexShare, DexShare)',
-		ERC20: 'EvmAddress'
+		ERC20: 'EvmAddress',
 		ChainSafe: 'ResourceId'
 	}
 };
@@ -23,7 +23,7 @@ import { typesBundleForPolkadot } from '@acala-network/type-definitions';
 	_enum: {
 		Token: 'TokenSymbol',
 		DEXShare: '(DexShare, DexShare)',
-		ERC20: 'EvmAddress'
+		ERC20: 'EvmAddress',
 		ChainSafe: 'ResourceId'
 	}
 };
